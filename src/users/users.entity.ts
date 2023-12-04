@@ -11,7 +11,7 @@ import {
 export class User {
   @PrimaryGeneratedColumn()
   id: number;
-  
+
   @Column()
   email: string;
 
