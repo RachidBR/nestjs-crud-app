@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+This is a small app which does basic CRUD operations on a `User`, using a sqlite database.
+
 ## Installation
 
 ```bash
@@ -45,18 +47,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Swagger docs
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+You can the swagger documentation on the `/swagger` endpoint
 
 ## Support
 

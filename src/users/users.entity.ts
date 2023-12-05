@@ -1,3 +1,4 @@
+import { ApiProperty } from '@nestjs/swagger';
 import {
   AfterInsert,
   AfterRemove,
@@ -10,12 +11,15 @@ import {
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
+  @ApiProperty()
   id: number;
 
   @Column()
+  @ApiProperty()
   email: string;
 
   @Column()
+  @ApiProperty()
   password: string;
 
   @AfterInsert()
